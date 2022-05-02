@@ -14,8 +14,10 @@
 ## Routes:-
 
 ### Auth
-//signup as a new user to get 1000 token bonus balance, 
-//asfsaf
+//after signup a new user to get 1000 token bonus balance<br />
+ // login to get tokenid and userid as a response<br />
+  //get & verify otp to become an admin<br />
+
 * auth/signup - user needs to send password,userName,email at the body of req(put)
 * auth/login - user needs to send email,password,userName at the body of req(post)
 * auth/getOtp - send userName at the body of req(get)
@@ -23,15 +25,15 @@
 * auth/logOut - send an empty req
 
 ### Admin
-//can only access these routes if you are an admin
-// all req would be get req, use Authorization header , Bearer Jwt & user the token sent to you after login
+//can only access these routes if you are an admin<br />
+// all req would be get req, use Authorization header , Bearer Jwt & user the token sent to you after login<br />
 * admin/balance -send user id in body, of the person whos balance u want
 * admin/transactions/:txId - txId of the transaction you are searching in params, your userId
 * admin/allTransactions - send userid in body
 * admin/userByName/:userName - userName in the url while sending req
 
 ### User
-// all req would be put req & u need to send your userId
+// all req would be put req & u need to send your userId<br />
 * user/getUserDetails - to get all the user details
 * user/getBalance - get your current balance
 * user/getTransaction - get your transactions
