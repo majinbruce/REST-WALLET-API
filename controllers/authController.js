@@ -10,7 +10,7 @@ import bcrypt from "bcryptjs";
 
 import { signUpMail } from "../helpers/sendEmail.js";
 import findUserName from "../services/findUserName.js";
-import { generateOTP, validateOtp } from "../helpers/optGenerator.js";
+import { generateOTP, validateOtp } from "../helpers/otpGenerator.js";
 
 import updateAdmin from "../services/updateAdmin.js";
 
