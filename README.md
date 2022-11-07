@@ -1,5 +1,5 @@
 # REST-WALLET-API
-A walltet that can handle transactions & store data of users in MongoDb
+A wallet that can handle transactions & store data of users in MongoDb
 ## Prerequisites
 - Nodejs
 - Postman
