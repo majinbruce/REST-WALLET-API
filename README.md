@@ -1,5 +1,14 @@
 # REST-WALLET-API
-A wallet that can handle transactions & store data of users in MongoDb
+A Fully Working Wallet Based on Nodejs
+
+- Tasks Included : -
+- Maintain User session with JWT token
+- Send Email Verification Mail to User on Signup
+- Login with Password/OTP
+- Give Fake Balance on User Signup
+- Manage Transfer Functionality between Users
+- Show Transaction Details (Admin/User View)
+- Send Transaction Success/Failure Details to User on Email
 ## Prerequisites
 - Nodejs
 - Postman
